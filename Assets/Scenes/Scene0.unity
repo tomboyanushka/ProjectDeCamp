@@ -287,7 +287,7 @@ TerrainCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 550533537}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: ba44574d5b2642140bf0bfea83d7923b, type: 2}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: 7bb9ee3aa041f714f8d7348d619773b9, type: 2}
   m_EnableTreeColliders: 1
@@ -464,6 +464,11 @@ Prefab:
     - target: {fileID: 4449414816608624, guid: eb3606f316d174f4ba220b84fe763de4, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114594279208616744, guid: eb3606f316d174f4ba220b84fe763de4,
+        type: 2}
+      propertyPath: brakeForce
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb3606f316d174f4ba220b84fe763de4, type: 2}
